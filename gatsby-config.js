@@ -39,5 +39,16 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `montserrat`,
+          `lato\:300`
+        ],
+        display: "block",
+      },
+    },
+    "gatsby-plugin-sass",
   ],
 };
