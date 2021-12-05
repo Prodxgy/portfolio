@@ -1,0 +1,219 @@
+$font-face: "Montserrat", "sans-serif";
+$bg-color: rgb(21, 24, 32);
+$text-color: #e2e8f0;
+$content-text-color: #9ca3ac;
+$link-color: rgb(0, 238, 255);
+
+body {
+    // background-color: $bg-color;
+    color: $text-color;
+}
+
+section {
+    background-color: $bg-color;
+    width: 100%;
+    padding: 4rem;
+    overflow: hidden;
+}
+
+section:nth-child(odd){
+    background-image: linear-gradient( 45deg, #087ee1, #05e8ba );
+
+    .heading {
+        display: inline-block;
+        font-size: 3.75rem;
+        font-weight: bold;
+        border-bottom: 1px solid $text-color;
+    }
+    .subheading {
+        display: inline-block;
+        border-bottom: 1px solid $text-color;
+    }
+}
+
+section:first-of-type {
+    background-image: url(../images/header-background.jpg);
+    height: 100vh;
+}
+
+/* Social Icons */
+.social-nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: .5rem;
+}
+.social {
+    display: inline-block;
+    font-size: 2em;
+    color: $link-color;
+    transition: .3s;
+    margin-right: 1.5rem;
+}
+.social:hover {
+    color: $text-color;
+}
+
+/* Headings */
+.heading {
+    font-family: "Lato", $font-face;
+    color: $text-color;
+    font-size: 3rem;
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 1px solid $link-color;
+    margin-bottom: 1.5rem;
+}
+
+.subheading {
+    font-family: "Lato", $font-face;
+    color: $text-color;
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 1px solid $link-color;
+    margin-bottom: 1.5rem;
+}
+
+/* Landing  */
+.landing {
+    font-family: $font-face;
+    background-color: #141821;
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $text-color;
+
+    .landing-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    h1 {
+        font-family: "Lato", $font-face;
+        text-transform: lowercase;
+        margin: 0;
+        font-size: 5.2rem;
+        letter-spacing: 0.08rem;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.3rem;
+        font-weight: 300;
+        letter-spacing: 0.08rem;
+        margin-bottom: 1.2rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    span {
+        color: $link-color;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .landing-nav {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        a {
+            text-decoration: none;
+            color: $text-color;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+
+        li {
+            margin-right: 1.8rem;
+            // text-transform: lowercase;
+        }
+
+        li:hover {
+            border-bottom: none;
+        }
+
+        li::after {
+            content: '';
+            display: block;
+            width: 80%;
+            height: 2px;
+            background: $link-color;
+            transition: width .5s;
+        }
+
+        li:hover::after {
+            width: 0;
+        }
+    }
+
+}
+
+/* About Me */
+
+.about {
+    p {
+        font-size: 1.2rem;
+        color: $content-text-color;
+        padding-right: 5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/* Resume */
+.resume {
+
+    h1, h2, h3, p {
+        font-family: "Lato", $font-face;
+    }
+    
+    /* Education */
+    .edu-heading {
+        display: inline-block;
+        font-size: 2.6rem;
+        font-weight: 900;
+    }
+
+    .edu-heading::after {
+        content: '';
+        height: 1.75px;
+        background: $text-color;
+        display: block;
+        margin-top: 2px
+    }
+
+    .edu-info{
+
+        p {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-style: normal;
+        }
+
+    }
+    
+    li {
+        font-family: $font-face;
+    }
+}
