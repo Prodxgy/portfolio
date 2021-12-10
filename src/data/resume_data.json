@@ -1,0 +1,101 @@
+{
+    "eduData": [
+        {
+            "institution": "Michigan State University",
+            "location": "East Lansing, MI",
+            "url": "https://www.msu.edu/",
+            "degree": "Bachelor's of Science",
+            "majors": [
+                "Computer Science"
+            ],
+            "dates": "Sept 2021 - Present",
+            "activities": [
+                "Society of Asian Scientists & Engineers (SASE)",
+                "Pilipino American Student Society (PASS)",
+                "Asian Pacific American Student Organization (APASO)"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "type": "Programming Languages",
+            "data" : [
+                {
+                    "name": "Python",
+                    "devicon": "devicon-python-plain"
+                },
+                {
+                    "name": "C++",
+                    "devicon": "devicon-cplusplus-plain"
+                },
+                {
+                    "name": "Node.js",
+                    "devicon": "devicon-nodejs-plain"
+                },
+                {
+                    "name": "HTML5",
+                    "devicon": "devicon-html5-plain-wordmark"
+                },
+                {
+                    "name": "CSS3",
+                    "devicon": "devicon-css3-plain-wordmark"
+                },
+                {
+                    "name": "JavaScript",
+                    "devicon": "devicon-javascript-plain"
+                }
+            ]
+        },
+        {   
+            "type": "Frameworks & Libraries",
+            "data": [
+                {
+                    "name": "Bootstrap",
+                    "devicon": "devicon-bootstrap-plain"
+                },
+                {
+                    "name": "React",
+                    "devicon": "devicon-react-original"
+                },
+                {
+                    "name": "Gatsby",
+                    "devicon": "devicon-gatsby-plain"
+                }
+            ]
+        },
+        {
+            "type": "Server-Side Skills",
+            "data": [
+                {
+                    "name": "AWS",
+                    "devicon": "devicon-amazonwebservices-original"
+                },
+                {
+                    "name": "Docker",
+                    "devicon": "devicon-docker-plain"
+                },
+                {
+                    "name": "MongoDB",
+                    "devicon": "devicon-mongodb-plain"
+                },
+                {
+                    "name": "Linux",
+                    "devicon": "devicon-linux-plain"
+                }
+            ]
+        },
+        {
+            "type": "Version Control",
+            "data": [
+                {
+                    "name": "Git",
+                    "devicon": "devicon-git-plain"
+                },
+                {
+                    "name": "GitHub",
+                    "devicon": "devicon-github-plain"
+                }
+            ]
+        }
+    ]
+}

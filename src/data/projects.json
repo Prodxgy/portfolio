@@ -1,0 +1,17 @@
+[
+    {
+        "title": "playingcards.py",
+        "description": "A Python wrapper for playing cards, includes the ability to display an ASCII image of the card.",
+        "link": "https://github.com/Prodxgy/playingcards.py"
+    },
+    {
+        "title": "Collatz Conjecture Visual",
+        "description": "A visualization of the Collatz Conjecture, a mathematical sequence that starts with any positive integer and alternates between adding one and halving the number until it reaches 1.",
+        "link": "https://github.com/Prodxgy/collatz-conjecture"
+    },
+    {
+        "title": "Personal Portfolio",
+        "description": "A personal portfolio website, built with React + Gatsby",
+        "link": "https://github.com/Prodxgy/portfolio"
+    }
+]

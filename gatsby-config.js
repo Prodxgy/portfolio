@@ -42,13 +42,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `montserrat`,
-          `lato\:300`
-        ],
+        fonts: [`montserrat`, `lato\:300`],
         display: "block",
       },
     },
     "gatsby-plugin-sass",
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/images/`,
+      },
+    },
+    'gatsby-plugin-image',
+    `gatsby-plugin-anchor-links`,
   ],
 };
